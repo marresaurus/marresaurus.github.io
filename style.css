@@ -6,5 +6,9 @@ body{
 
 .nav{
 background-color: #AA78A6;
+position:absolute;
+top:0;
+width: 100%;
+padding:5%;
 }
 
