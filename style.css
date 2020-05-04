@@ -1,0 +1,52 @@
+html, body {
+    width : 100%;
+    height: 100%;
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-family: "Avenir" !important;
+    font-size: 20px;
+    }
+.room {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    height: 90%;
+    border: 5px solid #CCC;
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Avenir" !important;
+  }
+  
+  .ball {
+    position: absolute;
+    top   : 90px;
+    left  : 90px;
+    width : 20px;
+    height: 20px;
+    background: white;
+    border-radius: 100%;
+    /*box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px #f0f,
+    0 0 140px 90px #0ff;*/
+  }
+
+  .output {
+    font-size: 25px !important;
+    font-family: "Avenir" !important;
+    background-color: #000000 !important;
+    color: #ffffff !important;
+  }
+
+  .row {
+    background-color: #000000 !important;
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  #where {
+    font-size: 30px;
+    padding: 20px;
+  }
