@@ -267,7 +267,9 @@ const updateDownloadButton = () => {
 function endGame() {
   updateDownloadButton();
   window.removeEventListener("deviceorientation", handleOrientation);
-  alert("Spelet avklarat! Tryck på download och skicka filen till oss");
+  alert("Spelet avklarat! Tryck på download eller kopiera texten på skärmen. Skicka sedan datan till oss!"
+  );
+  room.innerHTML = "Kopiera detta:" + downloadData;
 }
 
 const startGame = () => {
